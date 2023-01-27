@@ -77,7 +77,7 @@ function ProductDetails({ product, products }) {
             <button
               type="button"
               className="buy-now"
-              onClick={() => setShowCart(true) & onAdd(product,qty)}
+              onClick={() => setShowCart(true)}
             >
               Buy Now
             </button>
